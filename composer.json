@@ -1,0 +1,21 @@
+{
+    "name": "mason88/wikitest",
+    "description": "Readability test for Wikipedia categories.",
+    "type": "project",
+    "require": {
+        "addwiki/mediawiki-api-base": "^2.3",
+		"davechild/textstatistics": "1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mason Lee",
+            "email": "minari99@hotmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "mason88\\WikiTest\\": "classes/"
+        }
+    }
+}
