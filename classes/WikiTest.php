@@ -1,5 +1,4 @@
 <?php
-
 namespace mason88\WikiTest;
 
 
@@ -36,7 +35,7 @@ class WikiTest
 	 * Downloads articles from Wikipedia and provides readability scores.
 	 * @param string $cat_name Name of category
 	 * @param string $page_cnt Number of pages to load
-     * @return array paragraphs data with scores
+	 * @return array paragraphs data with scores
 	 */
 	public function get_readability($cat_name, $page_cnt)
 	{
@@ -60,7 +59,7 @@ class WikiTest
 	 * Load pageids data from Wikipedia API into $this->cat_pages.
 	 * @param string $cat_name Name of category
 	 * @param string $page_cnt Number of pages to load
-     * @return int Count of pages loaded
+	 * @return int Count of pages loaded
 	 */
 	public function load_cat_pages($cat_name, $page_cnt)
 	{
